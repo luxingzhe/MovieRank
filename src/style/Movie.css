@@ -1,9 +1,0 @@
-.movie-image {
-    opacity:0.3;
-    padding: 0.5rem;
-}
-
-.movie-image:hover {
-    opacity: 1;
-    transform: scale(1.1);
-}
