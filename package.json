@@ -2,7 +2,7 @@
   "name": "liu-pindrop-challenge",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://luxingzhe123.gitlab.io/MovieRank",
+  "homepage": "https://luxingzhe.github.io/MovieRank",
   "dependencies": {
     "body-parser": "^1.19.0",
     "bootstrap": "^4.3.1",
@@ -15,6 +15,8 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "frontend": "react-scripts start",
     "backend": "node backend.js",
     "build": "react-scripts build",
@@ -35,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
