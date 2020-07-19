@@ -2,7 +2,7 @@
   "name": "liu-pindrop-challenge",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://luxingzhe.github.io/MovieRank",
+  "homepage": "http://waipohouse.com",
   "homepageForGitLab": "https://luxingzhe123.gitlab.io/MovieRank",
   "dependencies": {
     "body-parser": "^1.19.0",
